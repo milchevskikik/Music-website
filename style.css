@@ -1,0 +1,251 @@
+.textbook{
+    float: right;
+    border: 1px solid solid black;
+    font-size: 18px;
+}
+ul li{
+    float: left;
+    width: 100px;
+    text-transform: capitalize;
+    list-style-type: none;
+    font-family: kulim park ,sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 3s;
+}
+ul li a:hover{
+    color: Red;
+    z-index: 1;
+}
+ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+b{
+    color: red;
+    border-bottom: 2px solid red;
+    font-weight: normal;
+}
+body{
+    background:url(music3.jpg);
+    background-size:cover;
+}
+.cover{
+    border: 1px solid black;
+    text-align: center;
+    width: 300px; 
+    height: 450px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 7px;
+    opacity: 1;
+}
+.subcover{
+    border-bottom: 1px solid none;
+    background: black;
+    width: 300px;
+    height: 450px;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+.coverimage{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    margin: -10px -9px;
+    opacity: 0.7;
+}
+.text{
+    position: absolute;
+    left: 23%;
+    top: 51%;
+    margin: -1px 10px;
+}
+h1{
+    color: white;
+    font-family: kulim park,sans-serif;
+    line-height: 7px;
+    font-weight: normal;
+}
+h2{
+    color: white;
+    font-family: kulim park,sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    opacity: 0.3;
+    margin-top: -3px;
+}
+.line{
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 220px;
+    box-shadow: 1px 0px 4px;
+    color: hotpink;
+}
+.fa-circle{
+    color: white;
+    position: absolute;
+    left: 35%;
+    margin-top: -7px;
+}
+h3{
+    position: absolute;
+    left: 15%;
+    top: 71%;
+    font-size: 14px;
+    color: white;
+    font-family: kulim park ,sans-serif;
+    font-weight: normal;    
+}
+h4{
+    position: absolute;
+    left: 79%;
+    top: 70%; 
+    font-size: 14px;
+    color: white;
+    font-family: kulim park ,sans-serif;
+    font-weight: normal;
+}
+.context{
+    position: absolute;
+    left: 110%;
+    top: -10%;
+    width: 640px;
+}
+h5{
+    font-size: 60px;
+    color: white;
+    font-family: titillium web,sans-serif;
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+bold{
+    color: white;
+    opacity: 0.4;
+}
+h6{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    width: 550px;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+input{
+    /* border-bottom: 2px solid white; */
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    width: 220px;
+    /* box-shadow: 1px 0px 4px; */
+    color: hotpink; 
+}
+button{
+    /* border-bottom: 2px solid white; */
+    position: absolute;
+    top: 75%;
+    left: 170%;
+    width: 180px;
+    display: inline-block;
+    /* box-shadow: 1px 0px 4px; */
+    color: black;
+    background: none;
+    height: 100px;
+    font-size: 35px;
+}
+button {border-radius: 50px;} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
